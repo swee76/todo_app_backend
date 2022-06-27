@@ -1,0 +1,22 @@
+{
+  "name": "todo_app_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^2.5.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.1.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.18"
+  }
+}
